@@ -2,6 +2,6 @@ package com.example.retrofit
 
 data class PostResponse(
     val id : Int,
-    val tittle : String,
+    val title : String,
     val body : String
 )

@@ -12,7 +12,7 @@ class Adapter(private val list: ArrayList<PostResponse>): RecyclerView.Adapter<A
         fun bind(postResponse : PostResponse){
             with(itemView){
                 val text = "id : ${postResponse.id}\n"+
-                        "tittle : ${postResponse.tittle}\n"+
+                        "tittle : ${postResponse.title}\n"+
                         "body : ${postResponse.body}"
                 val data = findViewById<TextView>(R.id.rvtext)
                 data.text = text
